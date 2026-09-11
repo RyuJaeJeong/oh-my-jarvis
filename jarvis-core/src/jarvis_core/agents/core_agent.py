@@ -1,6 +1,6 @@
 from langchain_nvidia_ai_endpoints import ChatNVIDIA
 
-API_KEY = "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"
+API_KEY = ""
 
 client = ChatNVIDIA(
     model="google/gemma-4-31b-it",
