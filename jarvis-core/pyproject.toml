@@ -1,0 +1,21 @@
+[project]
+name = "jarvis-core"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = 'DGB\3240133', email = "fb0982@naver.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.141.1",
+    "langchain-nvidia-ai-endpoints>=1.4.3",
+    "pip-system-certs>=5.3",
+]
+
+[project.scripts]
+jarvis-core = "jarvis_core:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
